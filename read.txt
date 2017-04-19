@@ -1,0 +1,10 @@
+Before you use this application, you must change some settings from files. 
+
+1. Go to AnalogInputThread.py and change the code for you file into your current directory. 
+2. Go to GUI_Design2.py and change the directory of the icon into your current directory. 
+3. In the AnalogInputThread, you can edit the variable for sample rates. But you must increase the buffer size. 
+
+If you have troubles understanding this code:
+1. Search for live-plotting pyqtgraph from Google to understand the mechanism of live-plotting.
+2. Go to youtube and find Deusdies2 for PyQt GUI tutorials.
+3. Read libnidaqmx and take a look at them. It will be a great help.
